@@ -7,8 +7,15 @@
   💬 Conversational bot written in Java!
 </div>
 <div align="center">
+  <a href="https://github.com/curiosone-bot/curiosone-telegram"><img src="https://img.shields.io/badge/curiosone-telegram-00d2ff.svg" alt="curiosone telegram" /></a>
+  <a href="https://travis-ci.org/curiosone-bot/curiosone-telegram"> <img src="https://travis-ci.org/curiosone-bot/curiosone-telegram.svg?branch=next" alt="build status"></a>
+  <a href="https://codecov.io/gh/curiosone-bot/curiosone-telegram"><img src="https://img.shields.io/codecov/c/github/curiosone-bot/curiosone-telegram/next.svg" alt="code coverage" /></a>
+  <a href="https://google.github.io/styleguide/javaguide.html"><img src="https://img.shields.io/badge/code_style-Google-5ed9c7.svg" alt="code style" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/curiosone-bot/curiosone-telegram.svg" alt="license" /></a>
+</div>
+<div align="center">
   <sub>
-    The API Backend of the Curiosone bot.
+    The Telegram channel of the Curiosone bot.
   </sub>
 </div>
 
@@ -54,28 +61,12 @@ The project comes with some useful tools that will help you automatize some comm
 * `gradle javadoc` to generate the javadoc.
 * `gradle fixcs` to automagically fix the code style in a best-effort fashion
 * `gradle dependencies` to display all dependencies declared in root project.
-* `gradle run` to run the Channel.
-* `gradle --stop` to stop the API server..
+* `gradle run` to run the channel.
+* `gradle --stop` to stop the channel.
 
 ## Authors
-* **Simone Primarosa** - [simonepri](https://github.com/simonepri)
-* **Luca Pierfederici** - [LucaPierfederici](https://github.com/LucaPierfederici)
-* **Daniele Solombrino** - [DS98](https://github.com/DS98)
-* **Andrea Marino** - [thefauxandrea](https://github.com/thefauxandrea)
-* **Gianfranco Passanisi** - [passahr](https://github.com/passahr)
-* **Andrea Pedini** - [thefauxandrea](https://github.com/rytma)
-* **Andrea Rivitto** - [arivitto](https://github.com/arivitto)
-* **Eugenio Schintu** - [euschi](https://github.com/euschi)
-* **Claudio Venanzi** - [CL124C41A](https://github.com/CL124C41A)
-* **Jacopo Rufini** - [jacopoRufini](https://github.com/jacopoRufini)
-* **Christian Sordi** - [ChristianSordi](https://github.com/ChristianSordi)
-* **Alessandro Olivieri** - [alexoli883](https://github.com/alexoli883)
-* **Alfredo Orsini** - [AlfredoOrsini](https://github.com/AlfredoOrsini)
-* **Cosmo Pugliese** - [CosmoPug](https://github.com/CosmoPug)
-* **Francesco Natale** - [LightFoe](https://github.com/LightFoe)
 * **Michele Rossi** - [MicheleRossi](https://github.com/MicheleRossi)
-
-
+* **Luca Pierfederici** - [LucaPierfederici](https://github.com/LucaPierfederici)
 
 See also the list of [contributors](https://github.com/curiosone-bot/curiosone-core/contributors) who participated in this project.
 
