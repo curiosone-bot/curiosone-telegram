@@ -1,13 +1,13 @@
-package com.github.bot.curiosone.app.workflow;
+package com.github.bot.curiosone.telegram.workflow;
 
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.github.bot.curiosone.app.chat.helpers.AbstractScreen;
-import com.github.bot.curiosone.app.chat.helpers.AssetLoader;
-import com.github.bot.curiosone.app.chat.helpers.ScreenEnum;
-import com.github.bot.curiosone.app.chat.helpers.ScreenManager;
+import com.github.bot.curiosone.telegram.chat.helpers.AbstractScreen;
+import com.github.bot.curiosone.telegram.chat.helpers.AssetLoader;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenManager;
 
 public class GameCenter2 extends AbstractScreen {
   private TextButton arkanoid,wordCrush,endlessRoad, buildWords,chat, airborneassault;

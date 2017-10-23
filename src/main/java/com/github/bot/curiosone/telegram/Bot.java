@@ -1,8 +1,8 @@
 package com.github.bot.curiosone.telegram;
-
-import com.github.bot.curiosone.app.chat.helpers.TalkRequestResponse;
-import com.github.bot.curiosone.app.chat.world.ServerConnection;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
+
+import com.github.bot.curiosone.telegram.chat.helpers.TalkRequestResponse;
+import com.github.bot.curiosone.telegram.chat.world.ServerConnection;
 
 
 

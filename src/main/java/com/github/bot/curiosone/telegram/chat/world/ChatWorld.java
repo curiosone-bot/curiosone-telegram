@@ -1,15 +1,22 @@
-package com.github.bot.curiosone.app.chat.world;
-
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.scenes.scene2d.ui.*;
-import com.github.bot.curiosone.app.chat.telegram.Chat;
-import com.github.bot.curiosone.app.chat.chatObjs.Inserimento;
-import com.github.bot.curiosone.app.chat.chatObjs.SendButton;
-import com.github.bot.curiosone.app.chat.helpers.AssetLoader;
-import com.github.bot.curiosone.app.chat.helpers.ChatElementFactory;
-import com.github.bot.curiosone.app.chat.helpers.TalkRequestResponse;
+package com.github.bot.curiosone.telegram.chat.world;
 
 import java.util.StringTokenizer;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.scenes.scene2d.ui.Cell;
+import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.github.bot.curiosone.telegram.Chat;
+import com.github.bot.curiosone.telegram.chat.chatObjs.Inserimento;
+import com.github.bot.curiosone.telegram.chat.chatObjs.SendButton;
+import com.github.bot.curiosone.telegram.chat.helpers.AssetLoader;
+import com.github.bot.curiosone.telegram.chat.helpers.ChatElementFactory;
+import com.github.bot.curiosone.telegram.chat.helpers.TalkRequestResponse;
 
 
 

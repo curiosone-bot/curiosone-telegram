@@ -8,14 +8,14 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
-import com.github.bot.curiosone.app.chat.helpers.ApplicationBundle;
-import com.github.bot.curiosone.app.chat.helpers.AssetLoader;
-import com.github.bot.curiosone.app.chat.helpers.ScreenEnum;
-import com.github.bot.curiosone.app.chat.helpers.ScreenManager;
-import com.github.bot.curiosone.app.chat.helpers.SizeChangeListener;
-import com.github.bot.curiosone.app.chat.helpers.View;
-import com.github.bot.curiosone.app.chat.world.ChatWorld;
-import static com.github.bot.curiosone.app.chat.helpers.ChatElementFactory.StyleEnum.*;
+import com.github.bot.curiosone.telegram.chat.helpers.ApplicationBundle;
+import com.github.bot.curiosone.telegram.chat.helpers.AssetLoader;
+import com.github.bot.curiosone.telegram.chat.helpers.ChatElementFactory.StyleEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenManager;
+import com.github.bot.curiosone.telegram.chat.helpers.SizeChangeListener;
+import com.github.bot.curiosone.telegram.chat.helpers.View;
+import com.github.bot.curiosone.telegram.chat.world.ChatWorld;
 
 
 public class Chat extends Game {
@@ -55,7 +55,7 @@ public class Chat extends Game {
         }
       });
     }
-    AssetLoader.load(getType(prefs.getInteger("style")));
+    AssetLoader.load(StyleEnum.getType(prefs.getInteger("style")));
     ScreenManager.getInstance().initialize(this);
     ScreenManager.getInstance().showScreen(ScreenEnum.MENU);
   }

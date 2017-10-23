@@ -1,11 +1,11 @@
-package com.github.bot.curiosone.app.chat.screens;
+package com.github.bot.curiosone.telegram.chat.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.github.bot.curiosone.app.chat.helpers.Actionable;
-import com.github.bot.curiosone.app.chat.world.ChatRender;
-import com.github.bot.curiosone.app.chat.world.ChatWorld;
+import com.github.bot.curiosone.telegram.chat.helpers.Actionable;
+import com.github.bot.curiosone.telegram.chat.world.ChatRender;
+import com.github.bot.curiosone.telegram.chat.world.ChatWorld;
 
 
 public class ChatScreen implements Screen, Actionable {

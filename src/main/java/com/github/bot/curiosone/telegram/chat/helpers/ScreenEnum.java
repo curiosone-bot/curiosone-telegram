@@ -1,12 +1,12 @@
-package com.github.bot.curiosone.app.chat.helpers;
-
-import com.badlogic.gdx.Screen;
-import com.github.bot.curiosone.app.chat.screens.ChatScreen;
-import com.github.bot.curiosone.app.chat.screens.MenuScreen;
-import com.github.bot.curiosone.app.chat.screens.OptionScreen;
-import com.github.bot.curiosone.app.workflow.GameCenter2;
+package com.github.bot.curiosone.telegram.chat.helpers;
 
 import java.util.Random;
+
+import com.badlogic.gdx.Screen;
+import com.github.bot.curiosone.telegram.chat.screens.ChatScreen;
+import com.github.bot.curiosone.telegram.chat.screens.MenuScreen;
+import com.github.bot.curiosone.telegram.chat.screens.OptionScreen;
+import com.github.bot.curiosone.telegram.workflow.GameCenter2;
 
 //import com.github.bot.curiosone.app.games.airborneassault.screens.MainMenuScreen;
 //import com.github.bot.curiosone.app.games.endlessroad.scenes.EndlessRoad;

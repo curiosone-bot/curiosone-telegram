@@ -13,7 +13,7 @@ public class CuriosoneBots extends TelegramLongPollingBot
     private String name;
     private String receivedText;
     private String token;
-    private List<Bot> botSet = new ArrayList<>();
+    private List<Bot> botSet = new ArrayList<Bot>();
     public SendMessage message = new SendMessage();
 
 

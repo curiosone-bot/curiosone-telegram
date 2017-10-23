@@ -1,11 +1,11 @@
-package com.github.bot.curiosone.app.chat.screens;
+package com.github.bot.curiosone.telegram.chat.screens;
 
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.github.bot.curiosone.app.chat.helpers.AbstractScreen;
-import com.github.bot.curiosone.app.chat.helpers.AssetLoader;
-import com.github.bot.curiosone.app.chat.helpers.ScreenEnum;
-import com.github.bot.curiosone.app.chat.helpers.ScreenManager;
+import com.github.bot.curiosone.telegram.chat.helpers.AbstractScreen;
+import com.github.bot.curiosone.telegram.chat.helpers.AssetLoader;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenManager;
 
 public class MenuScreen extends AbstractScreen {
   private TextButton chatButton, gameButton, optionButton;

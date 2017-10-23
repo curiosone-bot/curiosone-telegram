@@ -1,4 +1,4 @@
-package com.github.bot.curiosone.app.chat.helpers;
+package com.github.bot.curiosone.telegram.chat.helpers;
 
 /**
  * Created by Luca Pierfederici on 11/09/2017.

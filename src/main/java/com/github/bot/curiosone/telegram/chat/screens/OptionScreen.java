@@ -1,4 +1,4 @@
-package com.github.bot.curiosone.app.chat.screens;
+package com.github.bot.curiosone.telegram.chat.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -9,14 +9,12 @@ import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.github.bot.curiosone.app.chat.helpers.AbstractScreen;
-import com.github.bot.curiosone.app.chat.helpers.AssetLoader;
-import com.github.bot.curiosone.app.chat.helpers.ScreenEnum;
-import com.github.bot.curiosone.app.chat.helpers.ScreenManager;
-import com.github.bot.curiosone.app.chat.world.ChatWorld;
-
-import static com.github.bot.curiosone.app.chat.helpers.ChatElementFactory.StyleEnum.*;
-import static com.github.bot.curiosone.app.chat.helpers.ChatElementFactory.StyleEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.AbstractScreen;
+import com.github.bot.curiosone.telegram.chat.helpers.AssetLoader;
+import com.github.bot.curiosone.telegram.chat.helpers.ChatElementFactory.StyleEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenEnum;
+import com.github.bot.curiosone.telegram.chat.helpers.ScreenManager;
+import com.github.bot.curiosone.telegram.chat.world.ChatWorld;
 
 public class OptionScreen extends AbstractScreen {
   private TextButton style1, style2, style3, menuButton;
@@ -44,9 +42,9 @@ public class OptionScreen extends AbstractScreen {
     dialog.text("Are you sure to change style? \n (if you do that, chat will be deleted)").button("Yes", true).button("No", false).key(Input.Keys.ENTER, true).key(Input.Keys.ESCAPE, false);
 
     menuButton.addListener(ScreenManager.getListener(ScreenEnum.MENU));
-    style1.addListener(getStyleClickListener(FUTURISTIC, style1));
+    style1.addListener(getStyleClickListener(StyleEnum.FUTURISTIC, style1));
 
-    style2.addListener(getStyleClickListener(MODERN, style2));
+    style2.addListener(getStyleClickListener(StyleEnum.MODERN, style2));
 
     reorder(250, 55, menuButton, style1, style2, style3);
     addActors(style1, style2, style3, menuButton);

@@ -1,8 +1,8 @@
-package com.github.bot.curiosone.app.chat.world;
-
-import com.github.bot.curiosone.app.chat.helpers.TalkRequestResponse;
+package com.github.bot.curiosone.telegram.chat.world;
 
 import java.io.IOException;
+
+import com.github.bot.curiosone.telegram.chat.helpers.TalkRequestResponse;
 
 public class MainTest
 {

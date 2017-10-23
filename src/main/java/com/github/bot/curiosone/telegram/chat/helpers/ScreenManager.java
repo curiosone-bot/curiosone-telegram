@@ -1,4 +1,4 @@
-package com.github.bot.curiosone.app.chat.helpers;
+package com.github.bot.curiosone.telegram.chat.helpers;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Screen;

@@ -1,14 +1,14 @@
-package com.github.bot.curiosone.app.chat.chatObjs;
+package com.github.bot.curiosone.telegram.chat.chatObjs;
+
+import java.io.IOException;
 
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.github.bot.curiosone.app.chat.helpers.AssetLoader;
-import com.github.bot.curiosone.app.chat.helpers.TalkRequestResponse;
-import com.github.bot.curiosone.app.chat.world.ChatWorld;
-import com.github.bot.curiosone.app.chat.world.ServerConnection;
-
-import java.io.IOException;
+import com.github.bot.curiosone.telegram.chat.helpers.AssetLoader;
+import com.github.bot.curiosone.telegram.chat.helpers.TalkRequestResponse;
+import com.github.bot.curiosone.telegram.chat.world.ChatWorld;
+import com.github.bot.curiosone.telegram.chat.world.ServerConnection;
 
 
 

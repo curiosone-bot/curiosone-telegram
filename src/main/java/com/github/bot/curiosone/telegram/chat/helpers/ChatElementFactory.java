@@ -1,4 +1,6 @@
-package com.github.bot.curiosone.app.chat.helpers;
+package com.github.bot.curiosone.telegram.chat.helpers;
+
+import java.io.IOException;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -7,10 +9,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.github.bot.curiosone.app.chat.chatObjs.Inserimento;
-import com.github.bot.curiosone.app.chat.chatObjs.SendButton;
-
-import java.io.IOException;
+import com.github.bot.curiosone.telegram.chat.chatObjs.Inserimento;
+import com.github.bot.curiosone.telegram.chat.chatObjs.SendButton;
 
 public class ChatElementFactory {
   private static StyleEnum style;

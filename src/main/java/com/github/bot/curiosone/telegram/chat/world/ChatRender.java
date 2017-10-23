@@ -1,4 +1,4 @@
-package com.github.bot.curiosone.app.chat.world;
+package com.github.bot.curiosone.telegram.chat.world;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -10,7 +10,7 @@ import com.badlogic.gdx.utils.viewport.StretchViewport;
 public class ChatRender {
 
   private OrthographicCamera cam;
-  private com.github.bot.curiosone.app.chat.world.ChatWorld world;
+  private ChatWorld world;
   private Stage stage;
   private SpriteBatch batch;
   private StretchViewport viewp;

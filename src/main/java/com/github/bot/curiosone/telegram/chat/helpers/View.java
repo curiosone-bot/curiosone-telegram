@@ -1,4 +1,4 @@
-package com.github.bot.curiosone.app.chat.helpers;
+package com.github.bot.curiosone.telegram.chat.helpers;
 
 
  public interface View {

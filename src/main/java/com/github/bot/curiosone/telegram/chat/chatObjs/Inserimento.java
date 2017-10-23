@@ -1,8 +1,8 @@
-package com.github.bot.curiosone.app.chat.chatObjs;
+package com.github.bot.curiosone.telegram.chat.chatObjs;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
-import com.github.bot.curiosone.app.chat.world.ChatWorld;
+import com.github.bot.curiosone.telegram.chat.world.ChatWorld;
 
 public class Inserimento extends TextField {
   private boolean play = false;
