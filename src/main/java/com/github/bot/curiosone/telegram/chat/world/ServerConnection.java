@@ -1,4 +1,5 @@
 package com.github.bot.curiosone.telegram.chat.world;
+import java.awt.*;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.Arrays;
@@ -9,11 +10,7 @@ import com.badlogic.gdx.utils.Json;
 import com.badlogic.gdx.utils.SerializationException;
 import com.github.bot.curiosone.telegram.chat.helpers.TalkRequestResponse;
 
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
+import okhttp3.*;
 
 
 public class ServerConnection{
