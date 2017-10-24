@@ -1,11 +1,8 @@
- /**
- * Created by michelerossi1 on 04/07/17.
- */
+package test.java.com.github.bot.curiosone.telegram;
 
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
-
 import com.github.bot.curiosone.telegram.CuriosoneBots;
 
 

@@ -1,5 +1,4 @@
 package com.github.bot.curiosone.telegram.chat.world;
-import java.awt.*;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.Arrays;
