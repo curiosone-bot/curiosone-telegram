@@ -45,6 +45,11 @@ dependencies {
   compile 'org.apache.commons:commons-io:1.3.2'
 
   compile name: 'edu.mit.jwi_2.4.0'
+  compile name: 'gdx'
+  compile name: 'gwt-user'
+  compile name: 'TelegramLibRossiM'
+  compile name: 'okio-1.13.0'
+  compile name: 'okhttp-3.9.0'
 }
 
 jacocoTestReport {
